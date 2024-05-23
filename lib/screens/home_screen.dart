@@ -67,9 +67,6 @@ class _LoadGltfOrGlbFilePageState extends State<LoadGltfOrGlbFilePage> {
       case 2:
         url = 'assets/brachiosaurus-altithorax/source/Brachi/Brachiosaurus.gltf';
         break;
-      case 3:
-        url = 'assets/pliosaur/scene.gltf';
-        break;
       default:
         url = 'assets/t-rex_jurassic_park/scene.gltf';
     }

@@ -65,10 +65,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/brachiosaurus-altithorax/source/Brachi/
-    - assets/parasaurolophus_walkeri/
     - assets/ikran_avatar/
     - assets/t-rex_jurassic_park/
-    - assets/pliosaur/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
