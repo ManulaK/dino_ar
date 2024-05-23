@@ -22,7 +22,7 @@ class _LoadGltfOrGlbFilePageState extends State<LoadGltfOrGlbFilePage> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: const Text('Load .gltf or .glb')),
+        appBar: AppBar(title: const Text('DINOSAUR AR')),
         body: ARKitSceneView(
           showFeaturePoints: true,
           enableTapRecognizer: true,
@@ -71,7 +71,7 @@ class _LoadGltfOrGlbFilePageState extends State<LoadGltfOrGlbFilePage> {
         url = 'assets/t-rex_jurassic_park/scene.gltf';
     }
 
-    _modelIndex = (_modelIndex + 1) % 3; // Increment index and wrap around
+    _modelIndex = (_modelIndex + 1) % 3;
 
     return ARKitGltfNode(
       assetType: AssetType.flutterAsset,
